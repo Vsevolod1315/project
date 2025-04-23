@@ -1,0 +1,88 @@
+z=255
+x=1000
+c=0
+x2=1000
+c2=500
+def setup():
+    size(1000,1000)
+    background(0)
+def draw():
+    global z,x,c,x2,c2
+    fill(254,255,0)
+    ellipse(425,425,200,200)
+    fill(137,137,137)
+    ellipse(290,290,60,60)
+    fill(222,112,22)
+    ellipse(200,200,80,80)
+    fill(242,192,7)
+    ellipse(200,200,80,20)
+    fill(183,159,22)
+    ellipse(200,225,60,15)
+    fill(209,190,84)
+    ellipse(200,175,60,15)
+    fill(72,123,193)
+    ellipse(115,115,85,85)
+    fill(67,180,108)
+    ellipse(134,107,45,27)
+    fill(212,227,128)
+    ellipse(134,135,35,20)
+    fill(67,170,107)
+    ellipse(89,105,30,20)
+    ellipse(89,132,17,27)
+    fill(245,37,37)
+    ellipse(20,30,70,70)
+    fill(255)
+    ellipse(20,55,45,20)
+    ellipse(20,5,45,20)
+    fill(224,177,138)
+    ellipse(630,650,130,130)
+    fill(250)
+    ellipse(630,615,110,15)
+    ellipse(630,635,125,15)
+    fill(211,115,70)
+    ellipse(630,657,130,25)
+    fill(250)
+    ellipse(630,685,110,25)
+    fill(200,135,105)
+    ellipse(645,690,30,40)
+    fill(237,186,163)
+    ellipse(820,820,115,115)
+    fill(234,163,104)
+    ellipse(820,820,180,40)
+    ellipse(820,820,140,30)
+    fill(183,223,242)
+    ellipse(690,140,130,130)
+    fill(0)
+    ellipse(690,140,120,120)
+    fill(115,197,237)
+    ellipse(690,140,90,90)
+    fill(90,90,178)
+    ellipse(930,120,100,100)
+    fill(80,80,165)
+    ellipse(960,130,20,30)
+    ellipse(930,100,90,20)
+    fill(70,70,144)
+    ellipse(920,100,30,15)
+    fill(z)
+    ellipse(620,340,10,10)
+    ellipse(200,280,10,10)
+    ellipse(230,470,10,10)
+    ellipse(430,600,10,10)
+    ellipse(300,640,10,10)
+    ellipse(100,800,10,10)
+    ellipse(130,600,10,10)
+    ellipse(460,880,10,10)
+    ellipse(400,170,10,10)
+    ellipse(800,480,10,10)
+    ellipse(900,600,10,10)
+    fill(random(0,255),random(0,255),random(0,255))
+    ellipse(x,c,30,30)
+    ellipse(x2,c2,36,39)
+    z=z-1
+    x=x-2
+    c=c+1
+    x2=x2-1
+    c2=c2-1
+    if z<=0 :
+        z=255
+    
